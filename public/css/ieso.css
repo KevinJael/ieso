@@ -1,0 +1,80 @@
+header {
+	padding: 1em;
+
+	 /*gradiente*/
+	background-image: url("../images/degradado.png");
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.nomargen{
+	margin-bottom: 0;
+}
+
+.panel-primary {
+  border-color: #FF562F;
+}
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #FF562F;
+  border-color: #FF562F;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #FCAB37;
+}
+.panel-primary > .panel-heading .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #337ab7;
+}
+
+.table > thead > tr > td.negro,
+.table > tbody > tr > td.negro,
+.table > tfoot > tr > td.negro,
+.table > thead > tr > th.negro,
+.table > tbody > tr > th.negro,
+.table > tfoot > tr > th.negro,
+.table > thead > tr.negro > td,
+.table > tbody > tr.negro > td,
+.table > tfoot > tr.negro > td,
+.table > thead > tr.negro > th,
+.table > tbody > tr.negro > th,
+.table > tfoot > tr.negro > th {
+  color: #fff;
+  background-color: #000;
+}
+ .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+ .horario {
+    width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  }
+  
+  .horario tbody>tr>td {;
+height: 80px; /*Aquí el Alto*/
+  }
+  .horario > tbody > tr > td.activo {
+    background-color: #FF562F;
+  }
+
+  .horario > thead > tr > th,
+.horario > tbody > tr > th,
+.horario > tfoot > tr > th,
+.horario > thead > tr > td,
+.horario > tbody > tr > td,
+.horario > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  border: 1px solid #ddd;
+}
+
+
